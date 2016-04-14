@@ -1,0 +1,12 @@
+[polyglotpiglet/home-office-setup]
+checkout = git clone 'git@github-personal:polyglotpiglet/home-office-setup.git' 'home-office-setup'
+
+[.config/vcsh/repo.d/vim.git]
+checkout = vcsh clone 'git@github-personal:polyglotpiglet/vim.git' 'vim'
+
+[.config/vcsh/repo.d/bashrc.git]
+checkout = vcsh clone 'git@github-personal:polyglotpiglet/bashrc.git' 'bashrc'
+
+[.config/vcsh/repo.d/git.git]
+checkout = vcsh clone 'git@github-personal:polyglotpiglet/git.git' 'git'
+
