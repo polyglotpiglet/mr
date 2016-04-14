@@ -10,3 +10,5 @@ checkout = vcsh clone 'git@github-personal:polyglotpiglet/bashrc.git' 'bashrc'
 [.config/vcsh/repo.d/git.git]
 checkout = vcsh clone 'git@github-personal:polyglotpiglet/git.git' 'git'
 
+[.config/vcsh/repo.d/mr.git]
+checkout = vcsh clone 'git@github-personal:polyglotpiglet/mr.git' 'mr'
