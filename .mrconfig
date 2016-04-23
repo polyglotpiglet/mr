@@ -12,3 +12,14 @@ checkout = vcsh clone 'git@github-personal:polyglotpiglet/git.git' 'git'
 
 [.config/vcsh/repo.d/mr.git]
 checkout = vcsh clone 'git@github-personal:polyglotpiglet/mr.git' 'mr'
+
+[polyglotpiglet/scassandra-server]
+checkout = 
+    git clone 'git@github-personal:polyglotpiglet/scassandra-server.git' 'scassandra-server'
+    cd ~/polyglotpiglet/scassandra-server/
+    git remote add upstream git@github-personal:scassandra/scassandra-server.git
+
+update = git pull origin master
+
+zap = git pull upstream master
+
